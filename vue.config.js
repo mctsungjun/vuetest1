@@ -5,7 +5,7 @@ const target = "https://port-0-nodeservertest-m3cudz5w505940d1.sel4.cloudtype.ap
 
 module.exports = {
   devServer: {
-    port: 80,
+    port: 8080,
     proxy: {
       '^/api': {
         target,
